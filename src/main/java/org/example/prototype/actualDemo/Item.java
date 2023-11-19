@@ -7,7 +7,8 @@ public abstract class Item implements Cloneable{
     private String url;
 
     @Override
-    protected Object clone() throws CloneNotSupportedException { // poate nu dorim ca o derivata a lui Item sa fie clonata, o putem suprascrie
+    protected Object clone() throws CloneNotSupportedException {
+        // poate nu dorim ca o derivata a lui Item sa fie clonata, o putem suprascrie
         return super.clone();
     }
 
