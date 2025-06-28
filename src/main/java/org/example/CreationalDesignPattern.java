@@ -1,4 +1,4 @@
-package org.example.singleton;
+package org.example;
 
 public class CreationalDesignPattern {
     public static void main(String[] args) {

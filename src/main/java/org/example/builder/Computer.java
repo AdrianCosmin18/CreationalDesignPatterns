@@ -2,7 +2,7 @@ package org.example.builder;
 
 public class Computer {
 
-    public static class ComputerBuilder {
+    public static class ComputerBuilder                                                                                                                                                                    {
         private HDD diskSize;
         private RAM ramSize;
         private boolean hasUsbc;
